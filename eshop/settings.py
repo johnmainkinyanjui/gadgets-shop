@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-dr1rle@-3-%aib%3*dpr@76ravcbxq8z8puxa)+6_avoo#@&i!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['big-plums-tie.loca.lt', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -176,4 +176,4 @@ MPESA_INITIATOR_USERNAME = 'initiator_username'
 
 MPESA_INITIATOR_SECURITY_CREDENTIAL = 'initiator_security_credential'
 
-CSRF_TRUSTED_ORIGINS = ['https://big-plums-tie.loca.lt']
+# CSRF_TRUSTED_ORIGINS = ['https://big-plums-tie.loca.lt']
