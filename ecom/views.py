@@ -167,7 +167,7 @@ def checkout(request):
         amount = order.total
         account_reference = 'reference'
         transaction_desc = 'Description'
-        callback_url = 'https://big-plums-tie.loca.lt/getconfirmation'
+        callback_url = 'https://coral-app-xohwd.ondigitalocean.app/getconfirmation'
         response = cl.stk_push(phone_number, amount, account_reference, transaction_desc, callback_url)
          
         print(response.json())
